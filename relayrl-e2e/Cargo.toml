@@ -1,0 +1,16 @@
+[package]
+name = "relayrl-e2e"
+version = "0.1.0"
+authors = ["jrcalgo <jacksonr121@outlook.com"]
+edition = "2024"
+description = "An end-to-end implementation of the RelayRL framework and its workflow."
+repository = "https://github.com/jrcalgo/relayrl-end2end"
+documentation = "https://docs.rs/crate/relayrl-e2e"
+readme = "README.md"
+keywords = ["relayrl", "rl", "e2e", "benchmark", "trajectory"]
+categories = ["science", "simulation", "command-line-utilities", "development-tools::testing", "development-tools::profiling"]
+license = "Apache-2.0"
+
+[dependencies]
+relayrl_framework = "0.5.0-alpha"
+tokio = "1.49.0"
