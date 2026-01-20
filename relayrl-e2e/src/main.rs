@@ -1,6 +1,6 @@
-use environments::gridworld::GridWorldEnv;
+pub mod environments;
 
 #[tokio::main]
-fn main() {
-    println!("Hello, world!");
+async fn main() {
+
 }
